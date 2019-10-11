@@ -4,34 +4,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="slider-main">
-            <div id="slider">
-                <div class="slider-container">
-                    <div class="slide slide-primary slide-active">
-                        <img src="./animal.jpg" class="slide-image">
-                    </div>
-                    <div class="slide">
-                        <img src="./bench.jpg" class="slide-image">
-                    </div>
-                    <div class="slide">
-                        <img src="./bloom.jpg" class="slide-image">
-                    </div>
-                    <div class="slide">
-                        <img src="./blur-bright.jpg" class="slide-image">
-                    </div>
-                    <div class="slide">
-                        <img src="./colorful.jpg" class="slide-image">
-                    </div>
-                    <div class="slide">
-                        <img src="./forest.jpg" class="slide-image">
-                    </div>
-                </div>        
+        <div class="slider-container">
+            <div class="slide slide-active">
+                <img src="./animal.jpg" class="slide-image">
+            </div>
+            <div class="slide">
+                <img src="./bench.jpg" class="slide-image">
+            </div>
+            <div class="slide">
+                <img src="./bloom.jpg" class="slide-image">
+            </div>
+            <div class="slide">
+                <img src="./blur-bright.jpg" class="slide-image">
+            </div>
+            <div class="slide">
+                <img src="./colorful.jpg" class="slide-image">
+            </div>
+            <div class="slide">
+                <img src="./forest.jpg" class="slide-image">
             </div>
         </div>
         <script src="script.js"></script>
         <script>
-            console.log(BG);
-            BG.init({'interval':6000, 'count': 4}).startSlide();
+            BG.init().startSlide();
         </script>
     </body>
 </html>
